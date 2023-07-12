@@ -1,0 +1,27 @@
+.foodbox img 
+{
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 5px;
+   -ms-zoom-animation:inherit;
+   border-radius: shadow;
+} 
+.foodbox img:hover
+{
+ transform: scale(1.1);
+ cursor: pointer;
+   
+}
+.para
+{
+   text-align: justify;
+}
+.conn
+{
+   text-align: justify;
+}
+p
+{
+   text-align: justify;
+}

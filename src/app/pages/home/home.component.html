@@ -1,0 +1,79 @@
+
+<section class="home" id="home">
+    <div class="image">
+        <img src="../../../assets/img/bannerimg/imghome1_files/heart.png" alt="">
+    </div>
+    <div class="content"> 
+        <span>Fresh And Organic Products For Your</span>
+        <h3>Upto 50% Off</h3>
+        <a routerLink="menu" class="btn">ORDER NOW<i class="bi bi-arrow-right"></i></a>
+    </div>
+</section>
+<!-- home end -->
+<div class="container mt-4 mb-4">
+    <!-- <h1 class="text-center mt-3">Fresh And  <span class="highlight">Organic Products</span></h1> -->
+    <div class="row mt-5">
+<!-- one -->
+        <!-- <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+            <h1>1</h1>
+            <p>select</p>
+        </div>
+        </div> -->
+    <!-- two -->
+    <!-- <div class="col-lg-4 mt-2">
+        <div class="stepBox">
+        <h1>2</h1>
+        <p>Fill the details</p>
+    </div>
+</div> -->
+<!-- three -->
+    <!-- <div class="col-lg-4 mt-2">
+         <div class="stepBox">
+                  <h1>3</h1>
+        <p>your order in delivered in minute</p>
+    </div>
+</div>   -->
+</div>
+</div>
+<!-- foodbox -->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center mt-5">fresh groceries<span class="highlight">Bumber Offer </span></h1>
+    <div class="row">
+        <div class="col-lg-4 mt-3 " *ngFor="let fd of foodData;index as i">
+          <div class="foodbox" *ngIf="i<=3">
+            <img src="{{fd.foodImg}}">
+            <h3>{{fd.foodName}}</h3>
+            <h2>{{fd.offer}}</h2>
+            <p>{{fd.foodPrice | currency: 'INR'}}</p>
+          </div>
+        </div>
+</div>
+<a routerLink="menu" class="viewmorebtn mt-3 " title="view more">view more<i class="bi bi-arrow-right" ></i></a>
+
+<!-- client --> 
+
+    <div class="container mt-4 mb-4">
+       
+        <div class="row">
+            
+            <div class="col-lg-4 mt-3 " *ngFor="let pd of Product">
+              <div class="foodbox1">
+                <div class="row">
+                    <div class="col-lg-2">
+                <img src="{{pd.img}}" alt="no img"></div>
+                <div class="col-lg-10">
+                <h5>{{pd.header}}</h5>
+                <h6>{{pd.head}}</h6>
+            </div>
+            </div>
+                <p>{{pd.p}}</p>
+                </div>
+              </div>
+            </div>
+        </div>
+  
+   
+
+
+

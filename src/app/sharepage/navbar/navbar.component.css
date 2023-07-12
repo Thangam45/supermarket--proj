@@ -1,0 +1,23 @@
+.navbar-light .navbar-nav .nav-link.active-link 
+{
+    color:var(--primary-color);
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.title
+{
+    color: rgb(7, 12, 22);
+    border-radius: 4px;
+} 
+.logo
+{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #130f40;
+    text-decoration: none;
+   
+}
+.logo i{
+    color: #ff3c00;
+    padding-right: .5rem;
+}
+

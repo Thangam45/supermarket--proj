@@ -1,0 +1,36 @@
+<div class="container mt-4 mb-4">
+     <h1>Our Blogs</h1>
+    <div class="row">
+        <div class="col-lg-4 mt-3 " *ngFor="let bl of bloog ">
+          <div class="foodbox">
+            <img src="{{bl.hlo}}">
+            <h3>{{bl.title}}</h3>
+            <p class="para">{{bl.para}}</p>
+           
+            <p class="conn">{{bl.con}}</p>
+            <button class="btn btn-md btn-dark  mt-3" title="Read More">{{bl.btn}}</button>
+          </div>
+        </div> 
+</div>
+<div class="container mt-4 mb-4">
+
+  <div class="foodbox">
+  <div class="row">
+      <div class="col-lg-4 mt-3 " *ngFor="let fd of foodData">
+      
+      <img src="{{fd.abou}}">
+      <h3>{{fd.foodName}}</h3>
+      <p id="para6">{{fd.par}}</p>
+      <!-- <p id="para6">{{fd.par1}}</p> -->
+
+      <button id="button6" class="btn btn-md btn-dark  mt-3" title="Read More">{{fd.btn}}</button>
+      
+      
+  </div>
+</div>
+</div>
+
+</div>
+<script>
+
+</script>

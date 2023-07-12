@@ -1,0 +1,29 @@
+#head
+{
+    color: rgb(224, 118, 69);
+}
+#h
+{
+    color: rgb(169, 150, 232);
+}
+
+.foodbox
+{
+    padding: 10px 20px;
+}
+.foodbox img 
+{
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 5px;
+
+}
+.foodbox img:hover
+{ transform: scale(1.1);
+    cursor:auto;
+}
+p
+{
+    text-align: justify; 
+}

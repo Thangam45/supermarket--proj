@@ -1,0 +1,171 @@
+/* .banner
+{
+   background-image: url('../../../assets/img/bannerimg/imghome1_files/backhome.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}  */
+
+/* home */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url('../../../assets/img/bannerimg/imghome1_files/home-bg.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0rem;
+}
+.home .image {
+    flex: 1 1 40rem;
+}
+
+.home .image img {
+    height: 40rem;
+    padding-top: 5rem;
+
+}
+
+.home .content {
+    /* padding: 0rem 3rem; */
+    flex: 1 1 40rem;
+    /* text-align: center; */
+}
+
+.home .content span {
+    font-size: 2rem;
+    color: var(--light-color);
+    font-weight: 500;
+}
+
+.home .content h3 {
+    font-size: 5rem;
+    color: var(--black);
+}
+/* home */
+
+
+.content{
+    top: 30%;
+    left: 3%;
+    position:relative;
+}
+.banner h1
+{
+    color: #0b0ec2;
+    font-size: 60px;
+    font-weight: bold;  
+}
+.content h1
+{
+    color: rgb(134,27,71);
+    font-size: 60px;
+    font-weight: bold; 
+}
+.content a{
+    text-decoration: none;
+    background-color: #fff;
+    color:var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.content a:hover
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.stepBox
+{
+    background-color: #8dceeb;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.stepBox h1 
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+.stepBox p
+{
+    font-size: 20px;
+    font-style: italic; 
+    color: #a70e28;
+}
+.highlight
+{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: italic; 
+    text-decoration: underline;
+}
+.foodbox
+{
+    padding: 10px 5px;
+}
+.foodbox img 
+{
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 5px;
+   
+  
+} 
+.foodbox img:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;  
+}
+.foodbox h3
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.viewmorebtn
+{
+    text-decoration: none;
+    background-color:rgb(139, 229, 180) ;
+    color: #000;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.foodbox1{
+    border: 1px solid rgb(216, 213, 213);
+    padding: 20px;
+}
+.foodbox1 h5,h6{
+   padding-left: 20px;
+}
+.foodbox1 p{
+    padding-top: 20px;
+ }
+.foodbox1 img 
+{
+   width: 70px;
+   height: 70px;
+   object-fit:scale-down;
+   border-radius: 50%;
+   
+}
+.border-box
+{
+    border: solid;
+}
+@media screen and (max-width:600px)
+{
+.banner
+{
+   height: 700px;
+}
+}
+
+
+
+
